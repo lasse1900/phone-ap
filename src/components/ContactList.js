@@ -16,6 +16,7 @@ export default function ContactList({ contacts, loading, setContacts }) {
 
   return (
     <div className="contacts-wrapper">
+      <h1 className="page-title">Contacts</h1>
       {contacts?.length > 0 ? (
         contacts.map((contact) => (
           <div key={contact.id} className="contact-card group ">
@@ -39,6 +40,10 @@ export default function ContactList({ contacts, loading, setContacts }) {
               <div className="flex items-center">
                 <PhoneIcon className="mr-2" />
                 <p className="phone">{contact.phone}</p>
+              </div>
+              <div className="flex items-center">
+                <UserIcon className="mr-2" />
+                <p className="email">{contact.email}</p>
               </div>
             </div>
           </div>

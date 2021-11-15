@@ -1,0 +1,77 @@
+.App {
+  margin: 0px 40px 10px 40px;
+}
+
+.App-logo {
+  height: 35px;
+  margin: 20px 10px 10px 40px;
+  fill: white;
+}
+
+.App-header {
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  background: #1D4485
+}
+
+.App-header-text {
+  height: 35px;
+  margin: 30px 10px 10px 400px;
+  /* align-content: flex-start; */
+  fill: white;
+}
+
+.lista {
+  min-height: 50px;
+  font-size: calc(10px + 2vmin);
+  color: green;
+  margin: 20px 10px 10px 400px;
+}
+
+.lista-header {
+  color: black;
+  font-style: italic;
+}
+
+
+/* Navigation Bar Styling */
+
+nav {
+  margin: 20 10 20 0;
+  font-family: Arial;
+  font-size: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+nav ul{
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  width: 50%;
+}
+
+nav li a {
+  /* background-color: #1D4485; */
+  display: block;
+  padding: 50 50;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(131, 124, 124);
+  /* border-right: 1px solid gray; */
+  }
+
+nav li a:hover {
+   color: black;
+   background-color: white; 
+   }
+
+   *{
+    margin: 5 5 5 5;
+    padding: 0,1;
+    line-height: 1;    
+}
+
+/* Navigation Bar Styling */

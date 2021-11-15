@@ -1,14 +1,31 @@
 {
   "contacts": [
     {
-      "name": "Jane",
-      "phone": "0538216548",
-      "id": 1
+      "name": "Lasse",
+      "phone": "0400-2323212",
+      "id": 2
     },
     {
-      "name": "John",
-      "phone": "0345987432",
-      "id": 2
+      "name": "Olli",
+      "phone": "045-2323",
+      "id": 3
+    },
+    {
+      "name": "Ville Calonius",
+      "phone": "23-343434",
+      "id": 4
+    },
+    {
+      "name": "olli",
+      "phone": "45-3434",
+      "email": "olliemail",
+      "id": 5
+    },
+    {
+      "name": "Paavo",
+      "phone": "0500-3232323",
+      "email": "gmail",
+      "id": 6
     }
   ]
 }
